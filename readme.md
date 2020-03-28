@@ -4,7 +4,47 @@
 
 ChainElement is a class that extends HTMLElement to make easy to make powerful and reactive web components that can be used in projects with or without frontend frameworks like React, Angular and Vue.
 
-##Creating a component
+## Installation
+
+### CDN
+
+```
+script src="http://www.alexmercedcoder.com/CE.js" charset="utf-8" defer></script>
+```
+
+in your javascript file
+
+```
+const {ChainElement} = require("chainelement")
+```
+
+### NPM
+
+```
+npm i chainelement
+```
+
+in your javascript file
+
+```
+const {ChainElement} = require("chainelement")
+```
+
+### ES6 Module
+
+index.html
+
+```
+<script type="module" src="app.js" charset="utf-8" defer></script>
+```
+
+app.js
+
+```
+import {ChainElement} from "http://www.alexmercedcoder.com/CEMOD.js"
+```
+
+## Creating a component
 
 ```
 
