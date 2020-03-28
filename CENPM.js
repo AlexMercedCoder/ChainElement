@@ -49,7 +49,7 @@ class ChainElement extends HTMLElement {
     static query = getQueryHash()[0];
 
     static buildAll() {
-        list.forEach((value) => value.build());
+        ChainElement.list.forEach((value) => value.build());
     }
 
     static doc = {
