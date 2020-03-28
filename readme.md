@@ -12,12 +12,6 @@ ChainElement is a class that extends HTMLElement to make easy to make powerful a
 script src="http://www.alexmercedcoder.com/CE.js" charset="utf-8" defer></script>
 ```
 
-in your javascript file
-
-```
-const {ChainElement} = require("chainelement")
-```
-
 ### NPM
 
 ```
@@ -107,43 +101,43 @@ ChainElement.query => Object with any URL queries that existed when the page loa
 
 _abbreviations of standard DOM functions to make using them easier_
 
-\ChainElement.doc.select(query) => document.querySelector(query)
+ChainElement.doc.select(query) => document.querySelector(query)
 
-\ChainElement.doc.selectAll(query) => document.querySelectorAll(query)
+ChainElement.doc.selectAll(query) => document.querySelectorAll(query)
 
-\ChainElement.doc.byId(query) => document.getElementById(query)
+ChainElement.doc.byId(query) => document.getElementById(query)
 
-\ChainElement.doc.byTag(query) => document.getElementsByTagName(query)
+ChainElement.doc.byTag(query) => document.getElementsByTagName(query)
 
-\ChainElement.doc.byClass(query) => document.getElementsByClassName(query)
+ChainElement.doc.byClass(query) => document.getElementsByClassName(query)
 
-\ChainElement.doc.create(query) => document.createElement(query)
+ChainElement.doc.create(query) => document.createElement(query)
 
-\ChainElement.doc.remove(query) => document.removeChild(query)
+ChainElement.doc.remove(query) => document.removeChild(query)
 
-\ChainElement.doc.append(query) => document.appendChild(query)
+ChainElement.doc.append(query) => document.appendChild(query)
 
-\ChainElement.doc.replace(old, new) => document.replaceChild(old, new)
+ChainElement.doc.replace(old, new) => document.replaceChild(old, new)
 
 _abbreviations of shadow DOM functions to make using them easier_
 
-\ChainElement.shad.select(element, query) => element.shadowRoot.querySelector(query)
+ChainElement.shad.select(element, query) => element.shadowRoot.querySelector(query)
 
-\ChainElement.shad.selectAll(element, query) => element.shadowRoot.querySelectorAll(query)
+ChainElement.shad.selectAll(element, query) => element.shadowRoot.querySelectorAll(query)
 
-\ChainElement.shad.byId(element, query) => element.shadowRoot.getElementById(query)
+ChainElement.shad.byId(element, query) => element.shadowRoot.getElementById(query)
 
-\ChainElement.shad.byTag(element, query) => element.shadowRoot.getElementsByTagName(query)
+ChainElement.shad.byTag(element, query) => element.shadowRoot.getElementsByTagName(query)
 
-\ChainElement.shad.byClass(element, query) => element.shadowRoot.getElementsByClassName(query)
+ChainElement.shad.byClass(element, query) => element.shadowRoot.getElementsByClassName(query)
 
-\ChainElement.shad.create(element, query) => element.shadowRoot.createElement(query)
+ChainElement.shad.create(element, query) => element.shadowRoot.createElement(query)
 
-\ChainElement.shad.remove(element, query) => element.shadowRoot.removeChild(query)
+ChainElement.shad.remove(element, query) => element.shadowRoot.removeChild(query)
 
-\ChainElement.shad.append(element, query) => element.shadowRoot.appendChild(query)
+ChainElement.shad.append(element, query) => element.shadowRoot.appendChild(query)
 
-\ChainElement.shad.replace(element, old, new) => element.shadowRoot.replaceChild(old, new)
+ChainElement.shad.replace(element, old, new) => element.shadowRoot.replaceChild(old, new)
 
 ## Lifecycle functions
 
