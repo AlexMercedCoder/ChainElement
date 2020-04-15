@@ -79,7 +79,7 @@ export class ChainElement extends HTMLElement {
         },
         replace: (q, y) => {
             return document.replaceChild(q, y);
-        }
+        },
     };
 
     static shad = {
@@ -109,7 +109,7 @@ export class ChainElement extends HTMLElement {
         },
         replace: (e, q, y) => {
             return e.shadowRoot.replaceChild(q, y);
-        }
+        },
     };
 
     static makeTag(name, element) {
@@ -131,7 +131,7 @@ export class ChainElement extends HTMLElement {
     }
 
     setState(newState) {
-        this.state = newState;
+        this.state = { ...this.state, ...newState };
         this.build();
     }
 }
