@@ -128,6 +128,16 @@ export class ChainElement extends HTMLElement {
             ChainElement.storage,
             ChainElement.query
         );
+        this.postBuild(
+            this.state,
+            this.props,
+            ChainElement.storage,
+            ChainElement.query
+        );
+    }
+
+    postBuild(state, props, global, query) {
+        return null;
     }
 
     setState(newState) {

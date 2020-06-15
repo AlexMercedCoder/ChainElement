@@ -145,3 +145,5 @@ Use the standard Web Component callbacks for lifecycle Functions
 
 connectedCallback() => on mount
 disconnectedCallback() => on dismount
+
+-can also define a postBuild(state, props, global, query) function that will run immediately after each render, good for adding eventlisteners to your template
